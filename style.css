@@ -1,0 +1,239 @@
+* {
+    font-family: 'PT Sans', sans-serif;
+    ;
+}
+
+h1 {
+    background-color: #9CC0F9;
+    padding: 20px;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+h2 {
+    background-color: #d6d6d6;
+    padding: 10px;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    margin: 20px
+}
+
+h4 {
+    background-color: #0077ff;
+    padding: 20px;
+    color: white;
+    margin-top: 0;
+    text-align: center;
+    font-size: x-large;
+
+}
+.h4hoteles{
+        background-color: #1ab022  ;
+        padding: 20px;
+        color: white;
+        margin-top: 0;
+        text-align: center;
+        font-size: x-large;
+    
+
+}
+
+.tarjetas {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: #A8DAB5;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+
+}
+
+
+img {
+    height: 150px;
+    width: 200px;
+
+}
+
+.restaurantes {
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: #679bd6;
+}
+
+.Hoteles{
+    border: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: #679bd6;
+}
+
+ 
+ 
+.tarjeta {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    flex-direction: column;
+    background-color: white;
+    max-width: 300px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+
+
+.imagen {
+    flex: 1;
+
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+}
+
+.contenido {
+    flex: 3;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+.contenido h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+.contenido p {
+    font-size: 1em;
+    margin-bottom: 0;
+
+}
+
+.separacion {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.separacion div {
+    background-color: white;
+}
+
+.lugares {
+    background-color: #A8DAB5;
+}
+
+.datos {
+    text-align: center;
+    background-color: #FDF0C3;
+    color: black;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+
+}
+
+
+.links {
+    text-decoration: none;
+    color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+
+}
+
+.links:hover {
+    color: black;
+    background-color: white;
+    transition: 1s;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+}
+
+.elemento-menu {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #FDF0C3;
+    /* Color de fondo */
+    color: grey;
+    /* Color del texto */
+}
+
+.linkmenu {
+    text-decoration: none;
+    color: grey;
+
+}
+a.linkmenu:hover{
+    color: black;
+    background-color: white;
+    transition: 0,5s;
+    border-radius: 5px;
+    padding: 10px;
+}
+.tarjetas img {
+    max-width: 100%;
+}
+.datos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.datos ul li {
+    margin: 5px 0;
+}
+.boton{
+
+  margin-top: 0%; 
+  margin: 0%; 
+  background-color: #0077ff;
+  padding: 20px;
+  color: white;
+  margin-top: 0;
+  text-align: center;
+  font-size: x-large;
+}
+.textoboton{
+    color: #333;
+}
+
+.Hoteles {
+    background-color: #5bb35f;
+}
+
