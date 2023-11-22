@@ -15,40 +15,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=PT+Sans&display=swap" rel="stylesheet">
     <script defer src="script.js"></script>
     <link rel="icon" href="./fotos/pipa.jpeg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenfoque de Div</title>
+
 
 
 </head>
 
 <body>
     <h1>Kahpish</h1>
+    <h1 class="titulo2" id="saludo">¡Hola, usuario! </h1>
      <div class="menu">
         <div class="elemento-menu"><a class="linkmenu" href="#lugares">LUGARES</a></div>
-        <div class="elemento-menu"><a class="linkmenu" href="#recomendaciones">RESTAURANTES</a></div>
-        <div class="elemento-menu"><a class="linkmenu">HOTELES</a></div>
-        <div class="elemento-menu"><a class="linkmenu">ACIVIDADES</a></div>
-        <div class="elemento-menu"><a class="linkmenu">VUELOS</a></div>
-        <div class="elemento-menu"><a class="linkmenu">CONTACTENOS</a></div>
+        <div class="elemento-menu"><a class="linkmenu" href="#restaurantes">RESTAURANTES</a></div>
+        <div class="elemento-menu"><a class="linkmenu" href="#Hoteles">HOTELES</a></div>
      </div>
     <div class="googlemaps">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1200000.615643829!2d-35.45070188216609!3d-5.84364994326477!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b3aaac26460531%3A0x5d8b404cf00fed69!2sNatal%2C%20RN%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1693528184029!5m2!1ses!2sar" width="100%" height="450" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
    
-    </div>
+    <h5 id="cuentaRegresiva"> vamos? </h5>
+    
+   <div class="cotizacion"> <h7>Mira como esta el dolar... mejor viaja!</h7><p id="cotizacion"></p>
+</div>
+   
     <div class="lugares" alt="lugares">
         <div class="separacion">
-            <div class="tarjetas">
+            <div id= "tarjetas" class="tarjetas" >
+    
                 <img src="./fotos/praia-de-ponta-negra.jpg" alt="">
                 <h2 class="titulosfotos"><a class= "links"target= "_blank" href="https://www.google.com.ar/maps/@-5.883178,-35.1678418,3a,75y,91.53h,84.19t/data=!3m7!1e1!3m5!1sAF1QipM6pIkzcE8FnFt8Nx1lI8fpZZZinHH8HoOfqDC8!2e10!3e12!7i5376!8i2688?entry=ttu">Ponta Negra</a></h2>
                 <h3 class="descripcion">La popular Ponta Negra es un vecindario costero en el que predomina una playa del mismo nombre, que se extiende hasta el Morro do Careca, una imponente duna de arena rodeada de vegetación</h3>
             </div>
 
-            <div class="tarjetas">
+            <div id= "tarjetas" class="tarjetas">
                 <img src="./fotos/areia preta.jpeg" alt="">
                 <h2 class="titulosfotos"><a class= "links"target= "_blank" href="https://www.google.com.ar/maps/@-5.7920476,-35.1864499,3a,75y,85.54h,107.49t/data=!3m6!1e1!3m4!1sct0BcJ1dU7Vp7ATAkSehmQ!2e0!7i16384!8i8192?entry=ttu">Areia preta </a></h2>
                 <h3 class="descripcion">La playa Areia Preta esta en unas de las zonas residenciales mas lindas de la ciudad, ofrece una vista perfecta para pasar el dia, disfrutar del mar, el sol y la arena.</h3>
             </div>
 
-            <div class="tarjetas">
+            <div id= "tarjetas" class="tarjetas">
                 <img src="./fotos/forte dos reis magos .jpeg" alt="">
                 <h2 class="titulosfotos"><a class= "links"target= "_blank" href="https://www.google.com.ar/maps/@-5.7560672,-35.1939421,3a,75y,35.64h,78.45t/data=!3m8!1e1!3m6!1sAF1QipNdUY6te6O0XXnLFQzftHi8hmq6_KtR-f6VihYP!2e10!3e11!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNdUY6te6O0XXnLFQzftHi8hmq6_KtR-f6VihYP%3Dw203-h100-k-no-pi-0-ya108.5394-ro-0-fo100!7i4096!8i2048?entry=ttu">Forte dos Reis Magos</a></h2>
                 <h3 class="descripcion">Es una construcción militar de la fundación de la ciudad de Natal y fue construida por los portugueses para defender la capitanía de Rio Grande contra las invasiones francesas y holandesas</h3>
@@ -77,7 +83,7 @@
     </div>
 
 
-    <h4 id="restaurantes">RESTAURANTES </h4>
+    <h4 id="restaurantes" alt="restaurantes">RESTAURANTES </h4>
     <div class="restaurantes">
         <div class="tarjeta">
             <div class="imagen">
@@ -97,27 +103,30 @@
                 <p>Erick Jacquin es hoy uno de los chefs franceses más importantes que trabajan en Brasil. Erick fue el primer chef francés en recibir este título en Brasil y América del Sur.</p>
             </div>
         </div>
-        
     </div>
-    
-    <h4 class= "h4hoteles"id="Hoteles">HOTELES </h4>
+
+    <h4 id="Hoteles" alt="Hoteles">HOTELES </h4>
     <div class="Hoteles">
         <div class="tarjeta">
             <div class="imagen">
-                <img src="./fotos/Camaroes.jpeg" alt="Imagen de la tarjeta">
+                <img src="./fotos/SERSH.jpeg" alt="Imagen de la tarjeta">
             </div>
             <div class="contenido">
-                <h2 class="titulosfotos"><a class= "links"target= "_blank" href="https://www.camaroes.com.br/">Camaroẽs Portiguar </a></h2>
-                <p>Restaurante de comidas tipigas norsdestinas, es decir regionales. Sus especialidades son los pescados, especificamente camarones</p>
+                <h2 class="titulosfotos"><a class= "links"target= "_blank" href="https://www.serhshotels.com/es/hoteles/serhs-natal-grand-hotel-resort/">SERHS HOTEL </a></h2>
+                <p>Serhs Grand Natal ofrece servicio de habitaciones, terraza en la azotea y conserje. Además, como huésped de SERHS Natal Grand Hotel, puedes disfrutar de piscina y desayuno incluido disponibles allí mismo. Los huéspedes que lleguen en coche tienen acceso a parking gratis.</p>
             </div>
         </div>
         <div class="tarjeta">
             <div class="imagen">
-                <img src="./fotos/labrasserie.jpeg" alt="Imagen de la tarjeta">
+                <img src="./fotos/wish.jpeg" alt="Imagen de la tarjeta">
             </div>
             <div class="contenido">
-                <h2 class="titulosfotos"><a class="links" target="_blank" href="https://www.camaroes.com.br/">La Brasserie</a></h2>
-                <p>Erick Jacquin es hoy uno de los chefs franceses más importantes que trabajan en Brasil. Erick fue el primer chef francés en recibir este título en Brasil y América del Sur.</p>
+                <h2 class="titulosfotos"><a class="links" target="_blank" href="https://www.wishhotels.com.br/es/wish-natal">WISH HOTEL</a></h2>
+                <p>El Wish Natal Hotel cuenta con 5 estrellas y está a 2,4 km del Centro de Convenciones de Natal. Situado junto a entro de Lancamento de Foguetes Barreira do Inferno, este hotel ofrece una sauna y un centro de fitness sin cargo adicional.
+
+                    El Estadio Machadão está a menos de 4 km de distancia. El hotel está a 6 km del centro.
+                    
+                    Algunos cuartos tienen vistas al mar y disponen de una caja fuerte privada, un refrigerador mini bar y TV de pantalla plana con canales vía satélite. Cuentan con baños con una ducha, un secador de pelo y toallas..</p>
             </div>
         </div>
         
@@ -126,10 +135,10 @@
 
         
 
-       <div class="boton">
-        <a class="textoboton"href="pagina2/index2.html" >hola</a></div>
+      
+       
         
-        <footer class="datos">
+        <footer class="datos" alt="datos">
             <ul>
                 <li> Contactate con nosotros!</li>
                 <li> +54 11 9 59138744 </li>
